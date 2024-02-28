@@ -8,9 +8,9 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Server Rewards NPC Tags", "nuGGGz", "0.1.0")]
+    [Info("NPC Tag Rewards", "nuGGGz", "0.1.0")]
     [Description("Allows for depositing and rewarding players for NPC ID tags")]
-    class ServerRewardsNPCTags : CovalencePlugin
+    class NPCTagRewards : CovalencePlugin
     {
         [PluginReference]
         private Plugin ServerRewards;
